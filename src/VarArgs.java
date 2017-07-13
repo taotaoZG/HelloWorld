@@ -5,6 +5,7 @@ public class VarArgs {
         for (int x: v){
             System.out.println(x + " ");
             System.out.println();
+            System.out.println();
         }
     }
 
