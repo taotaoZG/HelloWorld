@@ -15,3 +15,5 @@ public class MultiCatch {
         System.out.println("After multi-catch.");
     }
 }
+
+//只是用来做测试的
