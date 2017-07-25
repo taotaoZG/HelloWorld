@@ -1,8 +1,9 @@
 // 链式异常
 public class LinkException {
     static void demoproc(){
+        // 增加顶级异常
         NullPointerException e = new NullPointerException("top layer");
-        // add a cause
+        // 增加原因异常
         e.initCause(new ArithmeticException("cause"));
         throw e;
     }
