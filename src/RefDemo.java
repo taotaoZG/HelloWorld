@@ -15,7 +15,7 @@ public class RefDemo {
         plainbox = weightbox;
 
         vol = plainbox.volume();
-        System.out.println("Volume of plainbox is " + vol);
+        System.out.println("Volume of plainbox is 测试用" + vol);
 
         /*在此，weightbox是指向BoxWeight对象的引用，plainbox是指向Box对象的引用。因为BoxWeight是Box的子类，所以可以将指向weightbox对象的引用赋值给plainbox*/
 
